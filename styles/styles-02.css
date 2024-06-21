@@ -1,0 +1,147 @@
+body{
+  margin: 0;
+  background-color: #EA580C; 
+}
+/*HEADER*/
+header{
+  background-color: #EA580C;
+  height: 100px;
+  margin: 0;
+}
+.image-logo{
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+.image-search{
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 4px;
+}
+.conteiner-search-box{
+  background-color: white;
+  height: 50px;
+  width: 400px;
+  padding: 2px;
+  border-radius: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-text{
+  background-color: none;
+  border: none;
+  outline: 0;
+  margin-left: 4px;
+  font-size: 17px;
+}
+.conteiner-login{
+  background-color: #F9D6C4;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner-login a{
+  text-decoration: none;
+  color: black;
+}
+.conteiner-login a:hover{
+  color: rgb(187, 187, 187);
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+/*MAIN*/
+main{
+  margin-top: 10px;
+  margin: 0;
+  background-color: rgb(255, 243, 238);
+  border-radius: 50px;
+  height: 1200px;
+}
+/*TITTLE*/
+.box-text{
+  background-color: #C2410C;
+  height: 60px;
+  width: 280px;
+  margin-top: 20px;
+  border-radius: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.link{
+  text-decoration: none;
+  
+}
+h1{
+  color: white;
+  text-decoration: underline;
+}
+#tittle{
+  display: flex;
+  justify-content: center;
+}
+.image-content{
+ display: flex;
+ align-items: center;
+}
+.image-sobremesa{
+  border-radius: 20px;
+  max-height: 240px;
+  padding: 10px;
+}
+.text-content{
+  color: black;
+  max-width: fit-content;  
+  margin: 10px;
+}
+.tittle-content{
+  display: flex;
+  justify-content: center;
+  max-height: 200px;
+  
+
+}
+.cardapio{
+  max-width: 1000px;
+  max-height: 200px;
+  display: flex;
+  background-color: rgb(230, 230, 230);
+  border-radius: 20px;
+  margin-top: 30px;
+  
+  justify-content: center;
+}
+.sobremesa{
+  display: flex;
+  justify-content: center;
+}
+h2 a{
+  color: #C2410C;
+  padding-right: 250px;
+  padding-top: 10px;
+
+  display: flex;
+  justify-content: end;
+  
+}
+h2 a:hover{
+  color: #e97446;
+}
+footer{
+  background-color: #EA580C;
+  height: 150px;
+  margin: 0;
+}
