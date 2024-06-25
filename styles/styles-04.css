@@ -2,11 +2,12 @@
 /*MAIN*/
 main{
   margin-top: 10px;
-  margin: 0;
   background-color: rgb(255, 243, 238);
   border-radius: 50px 50px 0 0;
-  height: 700px;
+  min-height: 600px;
 }
+
+
 #top-text{
   display: flex;
   justify-content: center;
@@ -15,36 +16,13 @@ main{
 #tittle-text{
   display: flex;
   justify-content: center;
-  margin-top: 40px;
   background-color: #F9D6C4;
   width: 90rem;
-  border-radius: 70px;
+  border-radius: 50px 50px 0 0;
   margin-top: 10px;
   font-size: 20px;
 }
-.user-password{
-  display: flex;
-  justify-content: center;
-  
-  margin-top: 8%;
-}
-.user-password02{
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-.conteiner-passaword{
-  background-color: white;
-  height: 50px;
-  width: 350px;
-  padding: 2px;
-  border-radius: 100px;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .image-user{
   border-radius: 2px;
   padding: 10px;
@@ -57,39 +35,13 @@ main{
 
   font-size: 17px;
 }
-#recuperar{
-  margin-left: 790px;  
-}
-#recuperar a{
-  text-decoration: none;
-  color: rgb(69, 69, 69);
-}
-#recuperar a:hover{
-  color: rgb(158, 158, 158);
-}
-#btn-acessar{
-  margin-top: 20px;
-  background-color: #EA580C;
-  width: 350px;
-  height: 50px;
-  border-radius: 100px;
-  display: flex;
-  justify-content: center;
-  color: black;
-  text-decoration: none;
-}
+
 #conteiner-btn{
   display: flex;
   justify-content: center;
 }
 .text-btn{
   text-decoration: none;
-}
-#ou{
-  color:rgb(69, 69, 69) ;
-  margin-left: 730px;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 #btn-google{
   background-color: #E3E3E3;
@@ -98,31 +50,16 @@ main{
 }
 #image-google{
   height: 40px;
-  margin-left: 50px;
-  margin-right: 30px;
-}
-#btn-google{
-  height: 50px;
-  border-radius: 100px;
-  display: flex;
-  justify-content: center;
-  color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 50px;
-}
-#conteiner-google{
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
+
 }
 
-.form-register  {
+
+
+.form-section  {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  margin-top: 20px;
 }
 
 .input-form{
@@ -132,9 +69,72 @@ main{
   width: 350px;
   padding: 2px;
   border-radius: 10px;
-
-  margin-top: 30px;
-  margin-bottom: 20px;
-  justify-content: center;
+  margin: 10px 0 10px 0;
+  display: flex;
+  justify-content: flex-start;
 }
+
+.input-checkbox-form{
+  width: 350px;
+  padding: 2px;
+  border-radius: 10px;
+  margin: 10px 0 10px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.buttons-form{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin: 10px 0 10px 0;
+  width: 350px;
+}
+
+.buttons-form a{
+  text-decoration: none;
+}
+
+#btn-acessar{
+  margin: 10px 0 10px 0;
+  background-color: #EA580C;
+  color: #fff;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  text-decoration: none;
+}
+
+#btn-acessar a{
+  color: #fff;
+}
+
+.google-btn{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+  background-color: #fff;
+  color: #000;
+  border: solid 1px gray;
+  border-radius: 100px;
+  padding: 0 20px 0 20px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.other-options{
+  height: 50px;
+  width: 350px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 20px 0 20px 0; 
+
+}
+
 

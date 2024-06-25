@@ -20,7 +20,7 @@
                 <img src="../asserts/Pesquisa.png" class="image-search">
             </a>
             </div>
-            <div class="conteiner-login">
+            <div class="conteiner-login" style="display: none;">
                 <a href="./index04-login.html">LOGIN</a>
             </div>
         </nav>
@@ -31,7 +31,7 @@
                 <h1>CADASTRAR</h1>
             </div>
         </section>
-        <section class="form-register">
+        <section class="form-section">
             <div class="input-form">
                 <input type="text" class="login-text" placeholder="Digite seu nome">
             </div>
@@ -44,42 +44,29 @@
             <div class="input-form">
                 <input type="password" class="login-text" placeholder="Confirme sua senha">
             </div>
-        </section>
-        <div id="hidden" style="display: none;">
-            <section class="user-password">
-                <div class="conteiner-passaword">
-                    <img src="../asserts/WhatsApp Image 2024-06-20 at 23.13.45.jpeg" class="image-user">
-                    <input type="text" class="login-text" placeholder="Digite seu usuário ou email">
-                    <a href="#" class="conteiner-user"></a>
-                </div>
-            </section>
-            <section class="user-password02">
-                <div class="conteiner-passaword">
-                    <img src="../asserts/lock.png" class="image-user">
-                    <input type="text" class="login-text" placeholder="Digite sua senha">
-                    <a href="#" class="conteiner-user"></a>
-                </div>
-            </section>
-            <div id="recuperar">
-                <a href="#" >Esqueceu a senha?</a>
+            <div class="input-checkbox-form">
+                <input type="checkbox" name="agree-term" class="login-text">Declaro que li e concordo com a Política de Privacidade e Termos de Uso
             </div>
-            <section id="conteiner-btn">
-                <a href="#" class="text-btn">
-                    <div id="btn-acessar">
-                        <p class="text-btn">ACESSAR</p>
-                    </div>
-                </a>
-            </section>
-            <div id="ou">OU</div>
-            <section id="conteiner-google">
-                <a href="#" class="text-btn">
-                    <div id="btn-google">
-                        <img src="../asserts/search.png" alt="google" id="image-google">
-                        <p class="text-btn">ENTRAR COM GOOGLE</p>
-                    </div>
-                </a>
-            </section>
-        </div>
+            <div class="buttons-form">
+                <div id="btn-acessar">
+                    <a href="index01-inicial.html" class="text-btn">
+                        <p class="text-btn">CADASTRAR</p>
+                    </a>
+                </div>
+                <div class="btn-google-2">
+                    <a href="index01-inicial.html">
+                        <button class="google-btn">
+                            <img src="../asserts/search.png" alt="google" id="image-google">
+                            <p>ENTRAR COM O GOOGLE</p>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="other-options">
+                <div class="recuperar">Esqueceu sua senha? <a href="#">Redefinir Senha</a></div>
+                <div class="has-account">Já tem uma conta? <a href="index04-login.html">Entrar</a></div>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="footer-content">
