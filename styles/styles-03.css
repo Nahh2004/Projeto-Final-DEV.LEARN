@@ -5,11 +5,10 @@ main{
   margin: 0;
   background-color: rgb(255, 243, 238);
   border-radius: 50px 50px 0 0;
-  height: 2100px;
+
 }
 .image-main{
-  opacity: 0.5;
-  width: 120rem;
+  width: 100%;
   max-height: 500px;
   border-top-right-radius: 70px;
   border-top-left-radius: 70px;
@@ -88,16 +87,21 @@ main{
 }
 .box-list{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 50px;
+  padding: 0 25% 0;
 }
 #all-text{
   display: flex;
   flex-direction: column;
-  align-items: center;
+
 }
 .number-modo{
   height: 100px;
   border-radius: 50%;
+}
+
+.how-to-do{
+  padding-bottom: 100px;
 }
 
