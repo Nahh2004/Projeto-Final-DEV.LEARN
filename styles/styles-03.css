@@ -1,66 +1,4 @@
 
-body{
-  margin: 0;
-  background-color: #EA580C; 
-}
-/*HEADER*/
-
-header{
-  background-color: #EA580C;
-  height: 100px;
-  margin: 0;
-}
-.image-logo{
-  width: 50px;
-  border-radius: 50%;
-  margin-left: 50px;
-}
-.image-search{
-  height: 50px;
-  border-radius: 50%;
-  margin-top: 4px;
-}
-.conteiner-search-box{
-  background-color: white;
-  height: 50px;
-  width: 400px;
-  padding: 2px;
-  border-radius: 100px;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.search-text{
-  background-color: none;
-  border: none;
-  outline: 0;
-  margin-left: 4px;
-  font-size: 17px;
-}
-.conteiner-login{
-  background-color: #F9D6C4;
-  width: 100px;
-  height: 50px;
-  border-radius: 50px;
-  margin-right: 50px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.conteiner-login a{
-  text-decoration: none;
-  color: black;
-}
-.conteiner-login a:hover{
-  color: rgb(187, 187, 187);
-}
-.nav-bar{
-  display: flex;
-  justify-content: space-between;
-  padding-top: 20px;
-}
 /*MAIN*/
 main{
   margin-top: 10px;
@@ -163,7 +101,3 @@ main{
   border-radius: 50%;
 }
 
-footer{
-  background-color: #EA580C;
-  height: 100px;
-}
